@@ -6,6 +6,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+section{
+    padding: 2rem 0;
+}
 .container{
     max-width: 1125px;
     margin: 0 auto;
@@ -50,4 +53,41 @@ p{
     font-size: 20px;
     font-weight: 500;
     border-radius: 5px;
+}
+header{
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.download-sec{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.card{
+    background-color: #FFFFFF;
+    margin-left: 25px;
+    padding: 2rem;
+    padding-bottom: 4rem !important;
+    box-shadow: 10px 10px 10px gray;
+}
+.card-1{
+    border-left: 6px solid #FF6347;
+}
+.card-2{
+    border-left: 6px solid #0000FF ;
+}
+.third-section{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer{
+    padding-top: 2rem;
+}
+footer span{
+    text-align: center;
+    display: block;
+    
 }
